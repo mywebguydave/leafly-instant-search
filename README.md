@@ -3,7 +3,7 @@ React Boilerplate
 
 Uses:
 
-- [React Router](https://github.com/rpflorence/react-router)
+- [React Nested Router](https://github.com/rpflorence/react-nested-router)
 - [Webpack](http://webpack.github.io/)
 - [pushstate-server](https://github.com/scottcorgan/pushstate-server)
 
