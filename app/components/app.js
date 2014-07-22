@@ -14,7 +14,7 @@ var App = module.exports = React.createClass({
           <li><Link to="foo">Foo</Link></li>
           <li><Link to="bar">Bar</Link></li>
         </ul>
-        {this.props.activeRoute}
+        {this.props.activeRouteHandler()}
       </div>
     );
   },
