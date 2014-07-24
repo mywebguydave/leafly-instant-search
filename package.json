@@ -9,7 +9,7 @@
   "dependencies": {
     "react": "^0.11.0",
     "pushstate-server": "^0.2.0",
-    "react-nested-router": "^0.3.5"
+    "react-router": "0.4.x"
   },
   "devDependencies": {
     "jsx-loader": "^0.10.2",

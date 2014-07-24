@@ -1,5 +1,5 @@
 /** @jsx React.DOM */
-var Route = require('react-nested-router').Route;
+var Route = require('react-router').Route;
 
 module.exports = (
   <Route location="history" handler={require('../components/app')}>

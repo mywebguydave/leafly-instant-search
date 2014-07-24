@@ -1,7 +1,7 @@
 /** @jsx React.DOM */
 
 var React = require('react');
-var Link = require('react-nested-router').Link;
+var Link = require('react-router').Link;
 
 var App = module.exports = React.createClass({
 
