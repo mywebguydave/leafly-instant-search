@@ -33,7 +33,6 @@ var Index = module.exports = React.createClass({
   render: function() {
     return (
       <div>
-        <h2>Cannabis Strain Instant Search</h2>
         <input
          type='search'
          className='input-lg'
@@ -42,8 +41,14 @@ var Index = module.exports = React.createClass({
          onChange={this.onChangeSearchText}
          >
         </input>
+        <br />
+        <br />
 
         <SearchResults results={this.state.results} />
+
+        <a href="http://www.leafly.com">
+          <img src='/public/images/pbl-green.png' />
+        </a>
       </div>
     );
   }

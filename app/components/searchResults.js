@@ -9,7 +9,10 @@ var Result = React.createClass({
   render: function() {
     return (
       <div className='well'>
-        {this.props.result.Name}
+        <h3>{this.props.result.Name}</h3>
+        <span><strong>category: </strong>{this.props.result.Category}</span>
+        <br />
+        <span><strong>rating: </strong>{this.props.result.Rating}</span>
       </div>
     );
   }

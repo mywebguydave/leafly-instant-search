@@ -8,7 +8,6 @@
   "license": "MIT",
   "subdomain": "insta-strain-search",
   "dependencies": {
-    "pushstate-server": "^0.2.0",
     "react": "^0.11.0",
     "react-router": "0.5.x",
     "json-loader": "~0.5.1",
