@@ -1,6 +1,7 @@
 var Hapi = require('hapi');
 
-var server = new Hapi.Server(process.env.PORT || 3000, 'localhost', {
+var port = process.env.PORT || 3000;
+var server = new Hapi.Server(port, 'localhost', {
   views: {
     engines: {
       jade: require('jade')
@@ -42,6 +43,6 @@ server.on('internalError', function (request, err) {
 });
 
 server.start(function() {
-  console.log('magic is happening on localhost:3000');
+  console.log('magic is happening on localhost:' + port);
 });
 
