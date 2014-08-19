@@ -11,7 +11,7 @@ var App = module.exports = React.createClass({
         <div className="container text-left">
           <div className='row'>
             <div className='col-md-8 col-md-offset-2'>
-              <h1>Cannabis Strain Instant Search</h1>
+              <h1>InstaStrain Search</h1>
               <ul>
                 <li><Link to="index">Search</Link></li>
                 <li><Link to="about">About</Link></li>
